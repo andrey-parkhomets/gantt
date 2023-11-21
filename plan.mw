@@ -1,10 +1,60 @@
-_________ In Wroclaw ________,2023-11-27,2023-12-04
-by CAR to Wroclaw (Andrey #luxot_pay),2023-11-23,2023-11-25
-PESEL,2023-11-27,2023-11-30
-Medical Check,2023-11-29,2023-12-04, 
-settlement in apartments,2023-12-01,2023-12-04
-FLY back Moldava,2023-12-05,2023-12-05
-preparation,2023-12-06,2023-12-06
-FLY to Wroclaw (immediate family members #luxot_pay),2023-12-07,2023-12-07
-by CAR to Wroclaw (Andrey),2023-12-07,2023-12-07
-Available for work,2023-12-13,2023-12-17
+
+---
+#trip2: #39ea5c
+#trip3: #9bd62e
+#trip1: #f20d0d
+---
+title: Welcome to Markwhen!
+
+view: 
+  - \*
+edit:
+  - andrey.parkhomets@gmail.com
+
+---
+timezone: Europe/Chisinau
+
+#Wroclaw:
+  color: green
+  timezone: CET
+
+#Chisinau:
+  color: blue
+  timezone: EET 
+
+section Relocation
+group  trip #1 to Wroclaw #trip1
+
+now: Few days before trip
+Nov 25 2023 - Nov 26 2023 every week for 3 weeks: Weekend #Weekend
+Nov 24 2023 - Nov 25 2023:[]by car to Wroclaw, TBP #byCarAndrey
+after 10 day:[] Hotel, LUXOFT pay  #LUXOFT
+Nov 27 2023 - Dec 1 2023:[]PESEL [how to](https://www.wroclaw.pl/dla-mieszkanca/jak-wyrobic-pesel-uchodzcy-z-ukrainy) #Andrey
+Nov 29 2023 - Dec 1 2023: []Office/MedCheck attempt #1 #LUXOFT
+- [ ] Sign papers
+- [ ] Medical Check
+- [ ] Equipment
+Dec 4 2023:[]Office/MedCheck attempt #2 #LUXOFT
+
+group House check-in 
+Dec 1 2023 - Dec 3 2023: apart. handover #Andrey
+endGroup
+endGroup
+
+group   Andrey: trip #2  at 5 December| [FLY to Moldova ](https://www.kiwi.com/us/search/results/copernicus-airport-wroclaw-wroclaw-poland/chisinau-moldova/2023-12-05/no-return/?bags=1.0-&sortBy=duration). #trip2
+Dec 5 2023: all day trip #byFly
+Dec 5 2023 5:45-8:40: checking in airport #byFly
+Dec 5 2023 8:45-14:30: fly to Moldova #byFly
+endGroup
+
+group  Family: trip #3 at 6 December| [FLY to Wroclaw](https://www.kiwi.com/us/search/results/chisinau-moldova/copernicus-airport-wroclaw-wroclaw-poland/2023-12-06/no-return?sortBy=duration&bags=1.1-)  #trip3
+Dec 6 2023: Family recolation to Wroclaw #byFly
+endGroup
+
+group  Andrey: trip #4 by CAR to Wroclaw  #trip4
+Dec 6 2023: Dog EU travel certificate [Strada Vasile Lupu 48a, Chișinău](https://maps.app.goo.gl/jijEdVmrTQ8ag3dQ9) #dog
+Dec 7 2023 - Dec 9 2023: Andrey's car trip to Wroclaw #byCar
+endGroup
+
+endSection
+
